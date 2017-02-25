@@ -1,0 +1,406 @@
+body{
+	position: relative;
+}
+
+section {
+	background-color: black;
+	width: 100%;
+	padding: 20px 0px 0px 0px;
+}
+
+p{
+	color: white;
+}
+.navbar-default {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: white;
+	text-decoration: none;
+	border-bottom: 3px solid yellow;
+	padding-bottom: 10px;
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	background-color: #000000;
+	border-bottom: 3px solid yellow;
+	padding-bottom: 10px;
+	color: #ffffff;
+}
+
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #000000;
+  }
+}
+
+.container{
+	justify-content: center;
+	display: flex;
+	font-size: 16px;
+}
+.img-brand{
+	height: 100%;
+}
+
+
+
+.line{
+	width: 112px;
+	height: 47px;
+	border-bottom: 2px solid black;
+	position: relative;
+
+}
+
+.section01_bg{
+	height: 800px;
+	background-image: url("bg_main_2.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.section02_bg{
+	background-image: url("bg_02.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+
+}
+
+.section03_bg{
+	background-image: url("bg_03.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+    background-size: 100% auto;
+
+}
+
+
+.section04_bg{
+	background-image: url("bg_04.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+    background-size: 100% auto;
+  
+}
+
+.col-1{
+	float: none;
+	margin: 0 auto;
+	padding-top: 700px;	
+}
+
+.col-2-section2{
+	float: none;
+	margin: 0 auto;
+	padding-top: 240px;	
+}
+
+.col-2-section3{
+	float: none;
+	margin: 0 auto;
+}
+
+.col-second{
+	float: none;
+	padding-top: 20px;
+	
+}
+
+.col-center{
+	position: center;
+	float: none;
+	margin: 0 auto;
+	padding-top: 110px; 
+	font-size: 18px;
+
+}
+.col-about{
+	float: none;
+	margin: 0 auto;
+	font-size: 18px;;
+	background-color: black;
+	padding: 0 !important;
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+}
+
+
+
+.titleword{
+	font-size: 22px;
+	color :white;
+}
+
+.title_second_word{
+	font-size: 18px;
+	color :yellow;
+	line-height: 18px;
+
+}
+
+.title_second_word_info{
+	font-size: 18px;
+	color :white;
+	padding-top: 14px;
+	text-align: center;
+	display: inherit;
+
+}
+
+
+.underline {
+	display: block;
+	margin: auto;
+}
+
+.grid {
+	width: 30%;
+	height: 350px;
+	color: black;
+	margin: 12px;
+	background-color: white;
+    padding: 0 !important;
+   
+}
+
+/*圖片下方的三格*/
+.grid-grid-gold{
+	height: 90px;
+	background-color: #C4BE9D;
+ 	text-align: center;
+ 	display: table-cell;
+ 	padding: 4px;
+}
+.grid-grid-silver{
+	height: 90px;
+	background-color: #BAB6B6;
+ 	text-align: center;
+ 	display: table-cell;
+ 	padding: 4px ;
+}
+.grid-grid-pink{
+	height: 90px;
+	background-color: #EEA9A9;
+ 	text-align: center;
+ 	display: table-cell;
+ 	padding: 4px;
+}
+
+
+.grid-grid-white{
+	height: 90px;
+	float: left;
+	background-color: white;
+ 	text-align: center;
+ 	display: table-cell;
+ 	padding: 4px;
+
+}
+.grid-grid-number{
+	font-size: 30px;
+	color: black;
+	margin: 4px auto;
+}
+
+
+/*針對白方格中的圖片*/
+.grid-img{
+	height: 200px;
+	display: flex;
+	overflow: hidden;
+	width: 100%;
+	justify-content: center;
+}
+.image-container {
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+}
+.grid hr{
+	margin: 0px;
+	border-color: #b2b2b2;
+}
+
+.grid-text-col{
+	height: 60px;
+	text-align: center;
+	vertical-align: middle;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*--垂直水平都置中的css*/
+.grid-text-col-2line{
+	height: 60px;
+	display: flex;
+	text-align: center;
+  	justify-content: center;
+  	align-items: center;
+}
+/*--垂直水平都置中的css*/
+
+
+.blackrectangle{
+	position: relative;
+	margin-top: 300px;
+	width: 100%;
+	height: 300px;
+	bottom: 0;
+	left: 0;
+	clear: left;
+	background-color: black;
+	padding: 30px 0px;
+}
+
+.bonus-title {
+	margin-left: 30px;
+	color: yellow;
+}
+
+.bonus-content {
+	margin: 0px 90px 70px 40px;
+	font-size: 20px;
+	color: white;
+}
+
+.bouns {
+	float: right;
+	color: yellow;
+	font-size: 20px;
+}
+
+.yellow-line {
+	border-color: yellow;
+	border-bottom: 8px solid yellow;
+	margin: 0px 0px 10px 0px;
+}
+
+
+.absolute {
+	background-color:white;
+	position: absolute;
+	height: 300px;
+	text-align: center;
+	width: 100%;
+	bottom:0px;
+}
+
+
+
+/*--用來做tab的長條*/
+.headtab{
+	width: 100%;
+	height: 100px;
+	background-color:black;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+/*實心的圓*/
+.circle {
+    width: 240px;
+    height: 240px;
+    -webkit-border-radius: 120px;
+    -moz-border-radius: 120px;
+    border-radius: 120px;
+    background: yellow;
+}
+
+/*只有外寬的圓*/
+.circle_outside {
+    width: 300px;
+    height: 300px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    border-radius: 150px;
+    border: 5px solid yellow; 
+}
+
+.circle-text{
+	display: flex;
+	text-align: center;
+  	justify-content: center;
+  	align-items: center;
+  	font-size: 36px;
+	color :black;
+}
+
+.parent {
+	float: left;
+ 	position: relative;
+ 	top: 0;
+ 	max-width: 50%;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.image2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+}
+.common-image{
+	float: left;
+	max-width: 40%;
+	margin: 10px ;
+	align-items: center;
+
+}
+
+/*讓圓框跟圓形都置中*/
+.vertical-container {
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+
+/*讓圓置中於圖片*/
+
+.circle-center-pic{
+	display: -webkit-flex;
+	align-items: center;
+	top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+
