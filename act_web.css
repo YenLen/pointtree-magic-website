@@ -231,6 +231,7 @@ p{
 
 /*針對白方格中的圖片*/
 
+
 .image-container {
 	height: 200px;
 	display: flex;
@@ -329,6 +330,7 @@ p{
     -moz-border-radius: 120px;
     border-radius: 120px;
     background: yellow;
+    pointer-events: none;
 }
 
 /*只有外寬的圓*/
@@ -341,7 +343,7 @@ p{
     border: 5px solid yellow; 
 }
 
-.round:hover {
+.circle_outside:hover {
 	animation-name: clickable;
 	animation-duration: 0.5s;
 	animation-iteration-count: infinite;
@@ -352,7 +354,7 @@ p{
 		width: 350px;
 		height: 350px;
 		border-radius: 175px;
-		border: 4px solid yellow;
+		border: 5px solid yellow;
 	}
 	
 }
@@ -379,19 +381,19 @@ p{
  	max-width: 50%;
 }
 .image1 {
-  position: relative;
-  top: 0;
-  left: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  max-width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	max-width: 100%;
 }
 
 .image2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
 
 }
 .common-image{
